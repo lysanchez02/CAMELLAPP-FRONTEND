@@ -45,9 +45,9 @@
         <input class="form-control" type="password" placeholder="Contraseña"><br>
         <input class="form-control" type="password" placeholder="Confirma tu Contraseña">
         <br>
-        <div class="d-flex"><p>Algunos datos no seran visibles por tu seguridad*</p></div><br>
+
         <div class="d-flex justify-content-evenly">
-            <b-button variant="info" class="m-1"><b-icon icon="search"></b-icon>  Busco Empleos Disponibles</b-button>
+            <b-button v-on:click="success()" href="/admin" variant="info" class="m-1"><b-icon icon="search"></b-icon>  Busco Empleo</b-button>
   <b-button variant="info" class="m-1"><b-icon icon="megaphone"></b-icon>   Quiero Publicar Un Empleo</b-button><br>       
         </div>
 
@@ -65,6 +65,10 @@
             return{
 registro : "registro1"
             }},
-      components: { NavBarLogin }
-
+      components: { NavBarLogin },
+      methods: {
+        success(){
+          alert("Te has registrado exitosamente!")
+        }
+      }
 }</script>

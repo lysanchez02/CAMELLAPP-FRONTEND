@@ -6,9 +6,9 @@
           <div class="d-flex"><h1 class="m-5"><strong>!Bienvenido¡</strong></h1></div><br>
            <input class="form-control m-2" type="email" placeholder="Usuario"><br>
            <input class="form-control m-2" type="password" placeholder="Contraseña"><br>
-           <a href="">Olvidé mi Contraseña</a><br><br>
-          <b-button href="" class="mb-2" variant="info">Iniciar Sesion</b-button><p>ó</p>
-          <b-button href="/RegistroView" class="mt-o">Registrate</b-button>
+           <b-button href="" class="mb-2" variant="info">Iniciar Sesion</b-button><br><br>
+           <a href="./RegistroView" class="px-4">No tienes cuenta?</a>
+           <a href="" class="px-4">Olvidaste tu contraseña?</a><br><br>
         </div>
        </div>
       </div>

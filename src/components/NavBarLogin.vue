@@ -9,7 +9,7 @@
             <b-nav-item href="#">Contactanos</b-nav-item>
           </b-navbar-nav>
           </b-collapse>
-        <b-button class="" variant="secondary" href="/LoginView">INICIAR SESION</b-button>
+        <b-button class="" variant="secondary" href="/login">INICIAR SESION</b-button>
         <b-button class="mx-5" variant="outline-dark" href="/RegistroView">REGISTRATE</b-button>
       </b-navbar>
     </div>
